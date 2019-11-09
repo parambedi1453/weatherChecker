@@ -7,7 +7,10 @@
 }
 body
 {
-    background: linear-gradient(to right,rgb(255,167,35),rgb(255,97,35));
+    /* background: linear-gradient(to right,rgb(255,167,35),rgb(255,97,35)); */
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     display : flex;
     justify-content :center;
     align-items   : center;
@@ -21,14 +24,16 @@ body
 .container
 {
     max-width:90%;
-    width:1200px;
+    width:1000px;
     background-color: white;
     /* x-offset y-offset  shadow*/
     box-shadow: 0 5px 10px black;
     border-radius:5px;
+    background: linear-gradient(to right,rgb(255,167,35),rgb(255,97,35));
 }
 .content
 {
+   
     padding : 40px;
     margin-top:50px;
 }

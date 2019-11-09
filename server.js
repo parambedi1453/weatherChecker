@@ -27,3 +27,5 @@ app.post('/weather',(req,res) => {
 app.listen(3000, ()=> {
     console.log("SERVER IS RUNNING")
 })
+
+// nodemon server.js to run server
